@@ -105,7 +105,7 @@ const SkillsSection = () => {
                     const interests = [<br />
                     &nbsp;&nbsp;<span className="text-primary">"Generative AI"</span>,<br />
                     &nbsp;&nbsp;<span className="text-accent">"Full-Stack Development"</span>,<br />
-                    &nbsp;&nbsp;<span className="text-secondary">"Data Structures & Algorithms"</span><br />
+                    &nbsp;&nbsp;<span className="text-secondary">"Java Developer"</span><br />
                     ];
                   </div>
                 </div>

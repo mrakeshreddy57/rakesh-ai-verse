@@ -49,14 +49,21 @@ const ResumeSection = () => {
                 </div>
               </div>
 
-              {/* Resume Preview */}
-              <div className="border-2 border-dashed border-primary/30 rounded-lg h-96 flex items-center justify-center bg-muted/10 overflow-hidden">
-                <iframe 
-                  src="https://1drv.ms/b/c/570aa45551547fe6/EffInZC-rghNnFk3fHKtRMkBQl0k_V6BuA9Ka-oIM_gkbw?e=aAb9X5&amp;action=embedview" 
-                  className="w-full h-full rounded-lg"
-                  title="Rakesh Reddy Resume"
-                  frameBorder="0"
-                />
+              {/* Resume Placeholder */}
+              <div className="border-2 border-dashed border-primary/30 rounded-lg h-96 flex items-center justify-center bg-muted/10">
+                <div className="text-center">
+                  <FileText className="w-16 h-16 text-primary/50 mx-auto mb-4" />
+                  <h4 className="text-lg font-mono text-primary mb-2">Resume Preview</h4>
+                  <p className="text-muted-foreground text-sm">
+                    Interactive PDF viewer will be embedded here
+                  </p>
+                  <div className="mt-4 space-y-2 text-xs text-muted-foreground font-mono">
+                    <div>• Complete educational background</div>
+                    <div>• Technical skills & proficiencies</div>
+                    <div>• Project details & achievements</div>
+                    <div>• Contact information & links</div>
+                  </div>
+                </div>
               </div>
 
               {/* Quick Stats */}

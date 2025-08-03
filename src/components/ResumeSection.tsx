@@ -11,10 +11,7 @@ const ResumeSection = () => {
   };
 
   const handleView = () => {
-    // In a real implementation, this would open the resume in a new tab
-    console.log("Opening resume...");
-    // For demo purposes, you would replace this with the actual resume viewing link
-    // window.open('/path-to-resume.pdf', '_blank');
+    window.open('https://1drv.ms/b/c/570aa45551547fe6/EffInZC-rghNnFk3fHKtRMkBQl0k_V6BuA9Ka-oIM_gkbw?e=aAb9X5', '_blank');
   };
 
   return (
